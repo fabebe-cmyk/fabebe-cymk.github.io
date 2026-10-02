@@ -146,7 +146,7 @@ header{position:fixed;top:12px;left:0;right:0;z-index:50;padding:0 14px}
 .track img{height:clamp(68px,7vw,92px);width:auto;padding:12px 22px;background:rgba(255,255,255,.94);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.25);transition:transform .3s}
 .track img:hover{transform:translateY(-3px)}
 /* title sponsors */
-.tsp{padding:clamp(24px,3vw,38px);margin-bottom:44px;border-radius:var(--r);border:1.5px solid transparent;background:linear-gradient(135deg,#17323D,#0F222B) padding-box,linear-gradient(100deg,#FBA81B,#F05922 55%,#C9252C) border-box;box-shadow:0 24px 60px rgba(0,0,0,.35),0 0 70px rgba(240,89,34,.16)}
+.tsp{padding:clamp(24px,3vw,38px);margin-top:44px;border-radius:var(--r);border:1.5px solid transparent;background:linear-gradient(135deg,#17323D,#0F222B) padding-box,linear-gradient(100deg,#FBA81B,#F05922 55%,#C9252C) border-box;box-shadow:0 24px 60px rgba(0,0,0,.35),0 0 70px rgba(240,89,34,.16)}
 .tsp .k{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
 .tsp .k svg{font-size:16px;fill:currentColor}
 .tsp h2{font-size:clamp(30px,3.6vw,46px);margin:10px 0 0}
@@ -425,7 +425,9 @@ footer p{font-size:12.5px;color:var(--faint);max-width:560px}
 </section>
 
 <!-- participants + title sponsors (committee group, high on page) -->
-<section class="logos" aria-label="Title sponsors and retailer and wholesaler participants">
+<section class="logos" aria-label="Retailer and wholesaler participants and title sponsors">
+  <p class="lab">2026 retailer &amp; wholesaler participants</p>
+  <div class="track" id="track"></div>
   <div class="wrap">
     <div class="tsp reveal">
       <div class="head">
@@ -442,8 +444,7 @@ footer p{font-size:12.5px;color:var(--faint);max-width:560px}
       </div>
     </div>
   </div>
-  <p class="lab">2026 retailer &amp; wholesaler participants</p>
-  <div class="track" id="track"></div></section>
+</section>
 
 <!-- 2 · EXPERIENCE (film card) -->
 <section class="band" id="experience">
